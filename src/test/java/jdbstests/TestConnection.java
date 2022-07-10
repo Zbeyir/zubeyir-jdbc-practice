@@ -24,9 +24,10 @@ public class TestConnection {
 
         //getting information with column name
         System.out.println(resultSet.getString("region_name"));
+                                        // burada columnLabel ---> in masi yani adi
 
         //ANOTHER OPTIONS--ANOTHER WAY--;:))
-        //getting information with column index(starts 1)
+        //getting information with column index(starts 1) --> yani hacim bunu icine 0 yazarsan avcunu yalarsin hata alirsin
         System.out.println(resultSet.getInt(1));
 
         //ama eger assagidaki gibi yazrasak yine europ yazdiracak cünkü index(starts 1) den basliyor
